@@ -595,6 +595,9 @@ input, select, textarea {
 		}
 
 /* Icon */
+		.fa-dog {
+			font-size: 2.5rem;
+		}
 
 	.icon {
 		text-decoration: none;
@@ -676,20 +679,27 @@ input, select, textarea {
 
 		.image.main {
 			display: block;
-			margin: 2.5rem 0;
-			width: 100%;
+			margin: 2.5rem Auto;
+			width: 60%;
 		}
 
 			.image.main img {
 				width: 100%;
+				
 			}
+
+		.image.work {
+			display: block;
+			margin: 2.5rem Auto;
+			width: 25%;
+		}	
 
 		@media screen and (max-width: 736px) {
 
 			.image.main {
 				margin: 2rem 0;
 			}
-
+			
 		}
 
 		@media screen and (max-width: 480px) {
@@ -697,7 +707,7 @@ input, select, textarea {
 			.image.main {
 				margin: 1.5rem 0;
 			}
-
+			
 		}
 
 /* List */
